@@ -1,79 +1,113 @@
-  133  bash/bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  135  bash/bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  136  /bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  137  /bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
-  452  brew install git
-  453  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-  454  brew install git
-  455  git --version
-  460  git --version
-  461  git
-  462  git --version
-  464  git config user.name
-  465  git config --global user.name "Maddie Portrey"
-  466  git config --global user.email "maddiekay13@gmail.com
-  468  git config user.email
-  469  git config --global user.email "maddiekay13@gmail.com"
-  470  git config user.email
-  471  git config user.name
-  472  git config core.editor
-  473  git config --global core.editor "code -wait"
-  474  git config core.editor
-  475  git config init.defaultBranch
-  476  git config --global init.defaultBranch main
-  477  git config init.defaultBranch
-  478  git config --global core.editor "code -wait"
-  479  git config core.editor
-  480  git config --global core.editor "code --wait"
-  481  git config core.editor
-  484  git --version
-  488  git init
-  489  git status
-  491  history 0 | grep "git" > git_commands.txt
-  492  history | grep "git" > git_commands.txt
-  504  git status
-  508  git status
-  509  git add statistics.txt 
-  510  git status
-  512  git commit -m 'make first commit'
-  513  git status
-  514  git log
-  515  git log --oneline
-  516  git status
-  517  git add .
-  518  git commit -m 'change file name'
-  519  git long
-  520  git log
-  521  git status
-  522  git status
-  523  git commit -a -m 'Updated Curriculum'
-  524  git log
-  527  git add history.txt 
-  528  git status
-  529  git log
-  530  git commit -m 'create course outline files'
-  531  git log
-  532  git status
-  534  git status
-  535  git log
-  536  git log --oneline
-  537  git log
-  538  git log
-  539  touch .gitignore
-  542  git status
-  543  git restore .DS_Store
-  544  git status
-  546  git status
-  548  git add .gitignore
-  549  git commit -m 'Add gitignore file'
-  550  git status
-  552  git status
-  553  git status
-  554  git status
-  555  git add .
-  556  git commit -m 'updated history.txt file
-  557  git status
-  558  git log
-  559  git log --oneline
-  560  git remote -v
-  565  history | grep 'git' > git_commands.txt
+   66  bash/bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   68  bash/bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   69  /bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   70  /bin/bash -c "$(curl -fsSLhttps://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)
+  385  brew install git
+  386  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+  387  brew install git
+  388  git --version
+  393  git --version
+  394  git
+  395  git --version
+  397  git config user.name
+  398  git config --global user.name "Maddie Portrey"
+  399  git config --global user.email "maddiekay13@gmail.com
+  401  git config user.email
+  402  git config --global user.email "maddiekay13@gmail.com"
+  403  git config user.email
+  404  git config user.name
+  405  git config core.editor
+  406  git config --global core.editor "code -wait"
+  407  git config core.editor
+  408  git config init.defaultBranch
+  409  git config --global init.defaultBranch main
+  410  git config init.defaultBranch
+  411  git config --global core.editor "code -wait"
+  412  git config core.editor
+  413  git config --global core.editor "code --wait"
+  414  git config core.editor
+  417  git --version
+  421  git init
+  422  git status
+  424  history 0 | grep "git" > git_commands.txt
+  425  history | grep "git" > git_commands.txt
+  437  git status
+  441  git status
+  442  git add statistics.txt 
+  443  git status
+  445  git commit -m 'make first commit'
+  446  git status
+  447  git log
+  448  git log --oneline
+  449  git status
+  450  git add .
+  451  git commit -m 'change file name'
+  452  git long
+  453  git log
+  454  git status
+  455  git status
+  456  git commit -a -m 'Updated Curriculum'
+  457  git log
+  460  git add history.txt 
+  461  git status
+  462  git log
+  463  git commit -m 'create course outline files'
+  464  git log
+  465  git status
+  467  git status
+  468  git log
+  469  git log --oneline
+  470  git log
+  471  git log
+  472  touch .gitignore
+  475  git status
+  476  git restore .DS_Store
+  477  git status
+  479  git status
+  481  git add .gitignore
+  482  git commit -m 'Add gitignore file'
+  483  git status
+  485  git status
+  486  git status
+  487  git status
+  488  git add .
+  489  git commit -m 'updated history.txt file
+  491  git status
+  492  git log
+  493  git log --oneline
+  494  git remote -v
+  499  history | grep 'git' > git_commands.txt
+  500  git status
+  501  git branch
+  502  git branch music
+  503  git branch
+  504  git switch music
+  505  git branch
+  509  git add .
+  510  git commit -m 'Add new music curriculum files'
+  511  git status
+  512  git add .
+  513  git commit -m 'Add new music curriculum files'
+  514  git status
+  515  git switch main
+  516  git switch music
+  517  git switch main
+  518  git log --oneline
+  519  git switch music
+  520  git log --oneline
+  521  git add .
+  522  git commit -m 'update'
+  523  git switch main
+  524  git branch
+  525  git merge music
+  526  git push
+  527  git log --oneline
+  528  git switch music
+  529  git switch main
+  530  git merge music
+  531  git log --oneline
+  532  git branch -d music
+  533  git branch
+  535  history | grep "git" > git_commands.txt
+  536  history 0 | grep "git" > git_commands.txt
+  537  history | grep "git" > git_commands.txt
